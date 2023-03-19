@@ -1,0 +1,208 @@
+#contenido { width: 1024px; margin-left: 7%; }
+/* Estilos para el encabezado */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  background-color: RoyalBlue;
+  height: 45px;
+  box-shadow: 1px 0px 20px black;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#menu {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#menu>li>a {
+  background-color: RoyalBlue;
+  color: white;
+  padding: 10px;
+  display: block;
+  min-width: 220px;   
+}
+
+#menu>li>ul a {
+  background-color: #EEE;
+  color: black;
+  padding: 10px;
+  display: block;
+  min-width: 200px;
+}
+
+#menu li>a:hover {
+  border-radius: 2px;
+  background-color: RoyalBlue;
+  box-shadow: 0px 0px 5px blue;
+}
+
+#menu>li {
+  float: left;
+}
+
+#menu>li>ul {
+  display: none;
+  position:absolute;
+  border-radius: 4px;
+}
+
+#menu>li:hover ul {
+  display: block;
+  background-color: white;
+  color: black;
+  margin: 0px 4px 0px 4px;
+}
+
+.linkBlog {
+display: block;
+text-align: center;
+font-weight: bold;
+color: #FF8620;
+font-size: 14pt;
+}
+
+  /* Estilos para el título principal */
+h1 {
+    font-size: 36px;
+    margin: 0;
+    }
+    /* Estilos para las imágenes de los productos */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    }
+    
+    /* Estilos para las descripciones de los productos */
+    p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    }
+    
+    /* Estilos para los botones de compra */
+    button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 35px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+    
+    /* Estilos para el formulario de contacto */
+    form {
+    margin-top: 20px;
+    }
+    
+    label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    }
+    
+    input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    }
+    
+    button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+    
+    /* Estilos para el pie de página */
+    footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    }
+    .boton-compra {
+        background-color: #4CAF50; /* color de fondo del botón */
+        border: none;
+        color: white; /* color del texto del botón */
+        padding: 10px 20px; /* espacio interno del botón */
+        text-align: center; /* centrar el texto del botón */
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 10px 2px;
+        transition-duration: 0.4s; /* duración de la transición */
+        cursor: pointer;
+      }
+      
+      .boton-compra:hover {
+        background-color: #3e8e41; /* color de fondo al pasar el cursor sobre el botón */
+      }
+      
+    footer a {
+    color: #fff;
+    margin-right: 10px;
+    }
+    .third {
+      border-color: #3498db;
+      color: #fff;
+      box-shadow: 0 0 40px 60px #3498db inset, 0 0 0 0 #3498db;
+      -webkit-transition: all 150ms ease-in-out;
+      transition: all 150ms ease-in-out;
+    }
+    .third:hover {
+      box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+    }
+    
+    a{
+      text-decoration: none;
+    }
+    #whatsapp {
+      position: fixed;
+      bottom: 35px;
+      right:20px;
+    }
+    svg {
+      width: 80px;
+      display: inline-block;
+      vertical-align: middle;
+      filter: drop-shadow(0 1px 4px rgba(0,0,0,.4));
+    }
+    circle {
+      fill: #25d366;
+    }
+    path {
+      fill:  #fff;
+    }
+    #whatsapp a {padding: 20px 0;}
+    #whatsapp a::before {
+      content: 'Enviar mensaje por WHATSAPP';
+      display: inline-block;
+      vertical-align: middle;
+      padding: 5px 10px;
+      margin-right: 10px;
+      color: rgba(0, 0, 0, .8);
+      background: rgba(138,221,45,0.4);
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      filter: drop-shadow(0 1px 4px rgba(0,0,0,.4));
+      transition: .3s ease;
+      opacity: 0;
+    }
+    #whatsapp:hover a::before {opacity: 1;}
