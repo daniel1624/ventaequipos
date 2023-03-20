@@ -1,4 +1,8 @@
-#contenido { width: 1024px; margin-left: 7%; }
+#contenido { 
+width: 90%;
+max-width: 1024px;
+margin-left: 7%; 
+}
 /* Estilos para el encabezado */
 
 * {
