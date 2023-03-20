@@ -4,6 +4,18 @@ max-width: 1024px;
 margin-left: 7%; 
 }
 /* Estilos para el encabezado */
+.text-align-center {
+  height: auto;
+  width: 1024px;
+
+  background: #ffff99;
+  color: #333;
+
+  line-height: 36px;
+  text-align: center;
+  vertical-align: middle;
+}
+
 
 * {
   padding: 0;
